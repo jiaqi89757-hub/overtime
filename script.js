@@ -1,1 +1,0 @@
-function tick(){const d=new Date();time.textContent="当前时间 "+d.getHours().toString().padStart(2,'0')+":"+d.getMinutes().toString().padStart(2,'0')}tick();setInterval(tick,1000);function show(i,t){q.src=i;document.getElementById("t").innerText=t;m.style.display="flex"}function hide(){m.style.display="none"}
